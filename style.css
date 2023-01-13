@@ -1,0 +1,18 @@
+button {
+    background: none;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1; /* GRADIANT VERDİĞİNDE KENARLIKLARDA GÖZÜKMESİ İÇİN KULLAN */ 
+    border-width: 5px;
+}
+.border-gradient-purple {
+    border-image-source: linear-gradient(to right, #743ad5, #d53a9d); /* GRADIANT RENGİ VEREBİLMEK İÇİN BU KODU KULLANIN.*/
+}
+.border-gradient-green {
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
