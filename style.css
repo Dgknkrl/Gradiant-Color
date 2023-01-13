@@ -7,12 +7,12 @@ button {
 }
 .border-gradient {
     border: 10px solid;
-    border-image-slice: 1; /* GRADIANT VERDİĞİNDE KENARLIKLARDA GÖZÜKMESİ İÇİN KULLAN */ 
+    border-image-slice: 1; /* GRADIANT VERDİĞİNDE KENARLIKLARDA GÖZÜKMESİ İÇİN KULLAN. */ /* USE IT TO APPEAR ON BORDERS WHEN GRANTS GRADIANT. */
     border-width: 5px;
 }
 .border-gradient-purple {
-    border-image-source: linear-gradient(to right, #743ad5, #d53a9d); /* GRADIANT RENGİ VEREBİLMEK İÇİN BU KODU KULLANIN.*/
+    border-image-source: linear-gradient(to right, #732af1, #c71686); /* GRADIANT RENGİ VEREBİLMEK İÇİN BU KODU KULLANIN.*/ /* USE IT TO GET GRADIANT COLOR.*/
 }
 .border-gradient-green {
-    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+    border-image-source: linear-gradient(to left, #02ee64, #a0ff33);
 }
